@@ -19,7 +19,7 @@
     "\n",
     "def predict_m(duration_ms,explicit,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature):\n",
     "\n",
-    "    clf = joblib.load(os.path.dirname(__file__) + '/train_music_P4_DT.pkl') \n",
+    "    clf = joblib.load(os.path.dirname(__file__) + '/train_music_P5_XGB.pkl') \n",
     "    #clf = joblib.load('train_music_P2.pkl')\n",
     "    \n",
     "    datatrack={'duration_ms':[duration_ms],\n",
